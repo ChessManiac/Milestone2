@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #42a463; /* Set background color to green */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headers Style */
+h1, h2 {
+    color: #2b0404;
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation Bar Style */
+nav {
+    background-color: #85b8e7;
+    color: #1d5361;
+    padding: 20px;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Line Style */
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Profile Image Style */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #c4ce38;
+    color: #131212;
+}
+
+/* Links Styling */
+a {
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    background-color: #f3ae91;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Responsive Design for Tablets */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem; /* Reduce font size for smaller devices */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav h2 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%; /* Ensure the image scales properly */
+    }
+
+    table th, table td {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    label, input[type="text"] {
+        font-size: 0.9rem;
+    }
+}
