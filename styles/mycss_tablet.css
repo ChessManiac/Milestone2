@@ -53,7 +53,7 @@ hr {
     margin: 20px 0;
 }
 
-/* Profile Image */
+
 img {
     max-width: 100%;
     height: auto;
@@ -61,7 +61,7 @@ img {
     margin-bottom: 20px;
 }
 
-/* Table styles */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -79,7 +79,7 @@ th {
     color: #fff;
 }
 
-/* Links styling */
+
 a {
     color: #3498db;
     font-size: 1rem;
@@ -89,7 +89,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Form Styling */
+
 form {
     background-color: #fff;
     padding: 15px;
